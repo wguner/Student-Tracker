@@ -21,6 +21,3 @@ private:
 	int mMaxSize;
 	T *mTop;
 };
-
-//this is the stack code we used in lab
-//i used the lab and Andy's code while implementing stacks on my program.
