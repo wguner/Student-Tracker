@@ -9,7 +9,7 @@ void Menu::display_sub() {
 	cout << "\n1.Generate report for all students\n 2.Generate report for students with absences that match or exceed." << endl;
 }
 
-int Menu::val_menu(int numOptions) { //template menu code from previous assignments. so i dont have to write this every time. 
+int Menu::val_menu(int numOptions) {
 	string selection = "0";
 	while ((!isdigit(selection.at(0))) || stoi(selection) < 1 || stoi(selection) > numOptions) {
 		cout << "\nPlease enter a number from 1 to " << numOptions << '\n';
