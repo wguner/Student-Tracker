@@ -9,7 +9,7 @@ Stack<T>::Stack(int newSize) {
 
 
 template <class T>
-Stack<T>::~Stack() { //this weird code took me awhile understand
+Stack<T>::~Stack() {
 	delete[] mTop;
 }
 
