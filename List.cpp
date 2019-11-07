@@ -1,7 +1,4 @@
 #include "List.h"
-/*
-i have used the linked list code we worked on in lab and in class. also,
-*/
 
 void List::load_list(std::ifstream& file) {
 	delete_list();
